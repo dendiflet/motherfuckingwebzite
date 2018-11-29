@@ -4,12 +4,16 @@ background-image: url("800px.jpg");
 background-repeat: repeat ;
 font-weight: bold;
 margin-top: 30px;
-text-align: left;
+text-align: center;
 }
 
+aside
+{
+	margin-top: 30px;
+}
 h1
 { 
-border: 8px #ED0968 groove;
+border: 8px black solid;
 border-radius: 15px;
 display:table;
 margin: auto;
@@ -34,6 +38,7 @@ text-underline-position: 5px;
 p
 
 {
+	letter-spacing: 200px;
 margin: 10px; /* Marge extérieure de 50px */
 margin-left: 400px;
 margin-right: 400px;
@@ -76,9 +81,19 @@ span.foufoufou:before{content:"";display:inline-block;width:1em;height:1em;margi
 span.foufivfoufivfoufiv{color:#454545;font-weight:700}
 span.foufivfoufivfoufiv:before{content:"";display:inline-block;width:1em;height:1em;margin-left:.2em;margin-right:.2em;background-color:#454545}
 
+html.inverted{background-color:#010101}
+html.inverted body{color:#bababa}
+html.inverted div#invmode{color:#fff;background-color:#000}
+html.inverted blockquote{color:#dad0c7}
+html.inverted blockquote:before{color:#bfbfbf}
+html.inverted a{color:#07a}
+html.inverted a:visited{color:#ac5a82}
+html.inverted span.wr{color:#c0392b}
+html.inverted span.mfw{color:#8a0000}
 
 
-
+div#contrast,div#invmode{cursor:pointer;position:absolute;right:10px;font-size:.8em;text-decoration:underline;-webkit-touch-callout:none;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}
+div#invmode{color:#fff;background-color:#000;top:34px;padding:2px 5px}
 
 
 
